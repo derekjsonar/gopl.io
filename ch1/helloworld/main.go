@@ -10,7 +10,7 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Hello, 世界 and мир")
+	fmt.Println("Hello, 世界 and мир and दुनिया.")
 }
 
 //!-
