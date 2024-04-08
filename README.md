@@ -19,3 +19,7 @@ book; you can safely ignore them.  In a few cases, programs
 have been reformatted in an unnatural way so that they can be presented
 in stages in the book.
 
+Added a `.gitignore` rule to prevent unwanted `bin`s from getting into the repo. 
+If you `go build` with the following `-o` option, `git` will ignore the output.
+
+    go build -o bin/main
